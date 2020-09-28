@@ -1,6 +1,7 @@
 SQL Commands
 ------------
 
+Test-Alert
 SELECT  *FROM avn;
 
 ALTER TABLE public.avn ADD COLUMN tnum bigint default nextval('ticket_sequence'::regclass) PRIMARY KEY;
